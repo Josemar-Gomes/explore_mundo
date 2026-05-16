@@ -5,6 +5,7 @@ import 'screens/micro1_screen.dart';
 import 'screens/micro2_screen.dart';
 import 'screens/micro3_screen.dart';
 import 'screens/micro4_screen.dart';
+import 'screens/micro5_screen.dart';
 
 void main() {
   runApp(const ExploreMundoApp());
@@ -27,6 +28,7 @@ class ExploreMundoApp extends StatelessWidget {
         '/micro2': (context) => const Micro2Screen(),
         '/micro3': (context) => const Micro3Screen(),
         '/micro4': (context) => const Micro4Screen(),
+        '/micro5': (context) => const Micro5Screen(),
       },
     );
   }
